@@ -1,12 +1,15 @@
 # Lulu Loves
 
-Lulu loves... clean ingredients, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa. Handmade bath bombs and pamper products delivered to your door. Join the self care club!
+Lulu loves... clean ingredients, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa.
+Handmade bath bombs and pamper products delivered to your door. Join the self care club!
  
 ## UX
 
 ### The Strategy Plane
 
-#### User Stories
+#### User Persona
+
+You can view the user persona in assets > user persona
 
 Sadie Ryan is 13 and lives with her family. She is a huge fan of bath and beauty products.
 - As a customer I would like to purchase bath and beauty products. 
@@ -22,7 +25,32 @@ Mary Ryan is Sadie's mother
 - I want to be able to trust that my card details and personal information are secure.
 - I want to easily get in contact with the company if there is an issue.
 
+#### User Stories
+
 ### The Scope Plane
+
+To establish the scope for this project, I made a list of all possible features and gave each one a difficulty rating between 1 and 3.
+Allowing for a maximum of 12 points per release, I determined which features to prioritise and which to schedule for a later release.
+
+Feature | Rating
+------------ | -------------
+Announcement bar at the top of the home page to highlight relevant information e.g. sale or newsletter promotion | 1
+Logo that links to the home page so users can orientate themselves easily | 1
+Clear, consistent navigation on each page | 1
+Showcase products with a sliding banner | 1
+Highlight aspects of the brand that are important to the user (e.g cruelty-free products, customer service) using short messages and icons | 1
+Self Care Club blog, featuring articles and videos on products as well as general tips relating to self care | 1
+Online shop that will give users the option to set up an account or check out as guest and pay securely using Paypal, Stripe or Apple Pay | 1
+Customisable gift box product | 1
+A carousel of brand logos to showcase products that have been awarded, featured or commended | 1
+Newsletter sign-up | 1
+Footer which includes links to social media accounts and a footer menu of FAQ and Privacy Policy | 1
+Contact form | 1
+Customer service chat feature | 1
+Search bar | 1
+Custom mouse icon | 1
+
+
 
 ### The Structure Plane
 
