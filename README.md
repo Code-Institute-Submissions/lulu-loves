@@ -7,6 +7,26 @@ Handmade bath bombs and pamper products delivered to your door. Join the self ca
 
 ### The Strategy Plane
 
+Why are we so special? 
+'Lulu loves' boasts products that are 100% Vegan, cruelty free, paraben free and handmade. 
+We are especially focused on catering to tweens and teens, aged 11-19.
+Our goal is to offer bright, bold products that surpise and delight.
+The LL brand centers around the promotion of positive mental health and resillance through acts of self care.
+all our products are accomanpied with bite size techniques 
+so wheather it's a mini meditaion, breating exercise or the latest ASMR video, we want you to kick back and take 5. Self care isnt selfish!
+
+Who else is building this?
+Lush Cosmetics offer a similar service. They are also a handmade beauty business, focused on ethical and sustainable produts and offer a large choice of bath bomb designs.
+They do a good job of communicating these values on their homepage, along with beautifully tactile photogrpahy to showcase their products.
+However based on some of the products they stock, anti-aging creams, shaving products ect it is possible to esitmate that the age range of their user is older then the LL user.
+The lush cosmetics menu offers over 80 items in its drop-down menu which could be overwhelming and cause decision fatigue in tweens and teens. 
+An article published on rte.ie in October of 2020, reported that search terms such "shop local Ireland" saw an increase of 540%. 
+As Lush is a UK based brand it would be benificial for LL to communicate to users that it is an Irish brand.
+
+What are the tech considerations?
+
+This product is for general consumers. As this is a B2C product, I want to focus heavily and branding and beautiful emotive product images
+
 #### User Persona
 
 You can view the user persona in assets > user persona
@@ -25,32 +45,47 @@ Mary Ryan is Sadie's mother
 - I want to be able to trust that my card details and personal information are secure.
 - I want to easily get in contact with the company if there is an issue.
 
-#### User Stories
-
 ### The Scope Plane
 
-To establish the scope for this project, I made a list of all possible features and gave each one a difficulty rating between 1 and 3.
-Allowing for a maximum of 12 points per release, I determined which features to prioritise and which to schedule for a later release.
+#### User Stories
+
+#### Trade offs
+
+To establish the scope for this project I am using the agile methodology, I have made a list of all possible features and given each one a difficulty rating between 1 and 3.
+Each release will allow for a maximum of 12 points. I created the table below to determine which features to prioritise and which to schedule for a later release.
 
 Feature | Rating
 ------------ | -------------
 Announcement bar at the top of the home page to highlight relevant information e.g. sale or newsletter promotion | 1
 Logo that links to the home page so users can orientate themselves easily | 1
 Clear, consistent navigation on each page | 1
-Showcase products with a sliding banner | 1
+Showcase products with a sliding banner | 2
 Highlight aspects of the brand that are important to the user (e.g cruelty-free products, customer service) using short messages and icons | 1
 Self Care Club blog, featuring articles and videos on products as well as general tips relating to self care | 1
-Online shop that will give users the option to set up an account or check out as guest and pay securely using Paypal, Stripe or Apple Pay | 1
-Customisable gift box product | 1
+Online shop that will give users the option to set up an account or check out as guest and pay securely using Paypal, Stripe or Apple Pay | 3
+Related products section for upselling and cross selling | 3
+Customisable gift box product | 3
+Calculated shipping | 3
 A carousel of brand logos to showcase products that have been awarded, featured or commended | 1
-Newsletter sign-up | 1
+Newsletter sign-up | 2
 Footer which includes links to social media accounts and a footer menu of FAQ and Privacy Policy | 1
-Contact form | 1
-Customer service chat feature | 1
-Search bar | 1
+Contact form | 2
+Customer service chat feature | 3
+Search bar | 2
 Custom mouse icon | 1
 
+Given limited resources, the features that offer the most value at this stage are:
+- Logo that links to the home page
+- Clear, consistent navigation on each page
+- Showcase products with a sliding banner
+- Highlight aspects of the brand that are important to the user
+- Self Care Club blog (first article)
+- Newsletter sign-up
+- Footer
+- Contact form
+- Custom mouse icon
 
+These features solve the problem of generating interest and anticipation around the shop launch and beginning the process of establising the brand with potential customers.
 
 ### The Structure Plane
 
