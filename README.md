@@ -87,6 +87,8 @@ As a returning visitor, I want to contact LL with a question.
 
 **Goals of the site owner**
 
+As the owner of the site, I want to fhgsjkfhglsk
+
 #### Imagined Persona of primary user
 
 ![Lulu Loves User Persona](/assets/images/lulu-loves-user-persona.jpg)
