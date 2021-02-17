@@ -2,7 +2,7 @@
 
 # Lulu Loves
 
-Lulu loves... honest, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa.
+Lulu Loves... honest, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa.
 Handmade bath bombs and pamper products delivered to your door. Join the self care club!
  
 ## UX
@@ -11,13 +11,13 @@ Handmade bath bombs and pamper products delivered to your door. Join the self ca
 
 **Why are we so special?**
 
-'Lulu loves' boasts products that are 100% vegan, cruelty-free, paraben free and handmade. 
+Lulu Loves products are 100% vegan, cruelty-free, paraben free and handmade. 
 We are focused on offering pamper products to tweens and teens, aged 11-19. 
-The LL community centres around the promotion of positive mental health and resilience in teens. 
-Both through our online platform and notes that accompany our products, 
-teens can learn easily digestible techniques relating to mental health and wellness. 
+The LL community centres around the promotion of positive mental health and resilience in teens through acts of self-care. 
+Both our online platform and notes that accompany our products, 
+teach teens easily digestible techniques relating to mental health and wellness. 
 So, whether it's a mini meditation, breathing exercise or the latest ASMR video, 
-we want you to kick back and take 5; Self-care isn't selfish!
+we want you to kick back and take 5. Self-care isn't selfish!
 
 **Who else is building this?**
 
@@ -36,7 +36,7 @@ An [article published on rte.ie](https://www.rte.ie/news/business/2020/1023/1173
 reported that search terms such as "shop local Ireland" saw an increase of 540%. 
 As Lush is a UK based brand it would be beneficial for LL to communicate clearly to guardians and teens that it is an Irish brand.
 
-**What are the tech and other considerations?**
+**What are the tech and design considerations?**
 
 The LL demographic are tech savvy. [The Irish Times reports](https://www.irishtimes.com/business/technology/children-spend-equivalent-of-61-days-a-year-online-study-1.4012928)
 that 15% of 12-year-olds spend the equivalent of 61 days a year online. 
@@ -66,30 +66,30 @@ Generate interest in the brand and build a relationship with users | 5 | 5
 
 **Goals of visitors aged 11 - 19**
 
-As a first time visitor, I want to easily understand the main purpose of the site and learn more about the products and LL community.
-As a first time visitor, I want to be able to navigate through the site easily.
-As a first time visitor, I want to sign-up to the newsletter to be notified about product releases.
-As a first time user, I want to visit the brands social media accounts.
-As a first time visitor, I want to read tips and tricks relating to the products, self-care and wellbeing.
-As a first time visitor, I want to look at videos of the products.
-As a first time visitor, I want to browse gift options to get a feel for the type of product offered.
-As a returning visitor, I want to purchase products from the site.
-As a returning visitor, I want to read further tips and comments from other users.
-As a returning visitor, I want to post a comment.
-As a returning visitor, I want to contact LL with a question.
+- As a first time visitor, I want to easily understand the main purpose of the site and learn more about the products and LL community.
+- As a first time visitor, I want to be able to navigate through the site easily.
+- As a first time visitor, I want to sign-up to the newsletter to be notified about product releases.
+- As a first time user, I want to visit the brands social media accounts.
+- As a first time visitor, I want to read tips and tricks relating to the products, self-care and wellbeing.
+- As a first time visitor, I want to look at videos of the products.
+- As a first time visitor, I want to browse gift options to get a feel for the type of product offered.
+- As a returning visitor, I want to purchase products from the site.
+- As a returning visitor, I want to read further tips and comments from other users.
+- As a returning visitor, I want to post a comment.
+- As a returning visitor, I want to contact LL with a question.
 
 **Goals of guardians**
 
-As a first time visitor, I want to quickly understand if this brand is safe, sustainable and trust-worthy.
-As a returning visitor, I want to buy a gift.
-As a returning visitor, I want to find information about delivery times.
-As a returning visitor, I want to contact LL with a question.
+- As a first time visitor, I want to quickly understand if this brand is safe, sustainable and trust-worthy.
+- As a returning visitor, I want to buy a gift.
+- As a returning visitor, I want to find information about delivery times.
+- As a returning visitor, I want to contact LL with a question.
 
 **Goals of the site owner**
 
-As the owner of the site, I want to fhgsjkfhglsk
+- As the owner of the site, I want to fhgsjkfhglsk
 
-#### Imagined Persona of primary user
+#### Imagined user persona of primary visitor
 
 ![Lulu Loves User Persona](/assets/images/lulu-loves-user-persona.jpg)
 ![Lulu Loves User Goals and Frustrations](/assets/images/lulu-loves-user-persona-goals-and-frustrations.jpg)
@@ -276,4 +276,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - I received inspiration for this project from my sister Sadie, who gave me great insights when developing the user persona for the Lulu Loves brand. 
 Sadie also chose the name and did some initial logo sketches which I later developed into the Lulu Loves mascot, Sunny.
+
 ![Sadies original logo sketch](/assets/images/sadie-sketch.jpg)
