@@ -52,7 +52,6 @@ Customisable gift boxes | 1 | 1
 Start the LL blog | 4 | 4
 Showcase a product | 5 | 4
 Generate interest in the brand and build a relationship with users | 5 | 5
-- | 26 | 22
 
 ![Lulu Loves Project Roadmap](/assets/images/project-roadmap.jpg)
 
