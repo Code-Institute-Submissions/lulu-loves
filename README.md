@@ -1,3 +1,5 @@
+![Lulu Loves Logo](/images/lulu-loves-logo.png)
+
 # Lulu Loves
 
 Lulu loves... clean ingredients, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa.
@@ -7,25 +9,52 @@ Handmade bath bombs and pamper products delivered to your door. Join the self ca
 
 ### The Strategy Plane
 
-Why are we so special? 
-'Lulu loves' boasts products that are 100% Vegan, cruelty free, paraben free and handmade. 
-We are especially focused on catering to tweens and teens, aged 11-19.
-Our goal is to offer bright, bold products that surpise and delight.
-The LL brand centers around the promotion of positive mental health and resillance through acts of self care.
-all our products are accomanpied with bite size techniques 
-so wheather it's a mini meditaion, breating exercise or the latest ASMR video, we want you to kick back and take 5. Self care isnt selfish!
+**Why are we so special?**
 
-Who else is building this?
-Lush Cosmetics offer a similar service. They are also a handmade beauty business, focused on ethical and sustainable produts and offer a large choice of bath bomb designs.
-They do a good job of communicating these values on their homepage, along with beautifully tactile photogrpahy to showcase their products.
-However based on some of the products they stock, anti-aging creams, shaving products ect it is possible to esitmate that the age range of their user is older then the LL user.
+'Lulu loves' boasts products that are 100% Vegan, cruelty-free, paraben free and handmade. 
+We are focused on offering pamper products to tweens and teens, aged 11-19. 
+The LL community centres around the promotion of positive mental health and resilience in teens. 
+Both through our online platform and notes that accompany our products, 
+teens can learn easily digestible techniques relating to mental health and wellness. 
+So, whether it's a mini meditation, breathing exercise or the latest ASMR video, 
+we want you to kick back and take 5; Self-care isn't selfish!
+
+**Who else is building this?**
+
+Lush Cosmetics offer a similar service. They are also a handmade beauty business, focused on ethical and sustainable products and offer a large choice of bath bomb designs. 
+They do a good job of communicating the company's values on their homepage, along with beautifully tactile photography to showcase their products. 
+However, based on some products they stock, anti-ageing creams etc. it is possible to surmise that their demographic begins slightly older and spans a greater range than the LL user. 
+With this in mind, I believe LL's online presence could be tailored further to a more specific audience. 
 The lush cosmetics menu offers over 80 items in its drop-down menu which could be overwhelming and cause decision fatigue in tweens and teens. 
-An article published on rte.ie in October of 2020, reported that search terms such "shop local Ireland" saw an increase of 540%. 
-As Lush is a UK based brand it would be benificial for LL to communicate to users that it is an Irish brand.
+It is also important to consider the needs of parents, who will likely be paying for the products. 
+An [article published on rte.ie](https://www.rte.ie/news/business/2020/1023/1173492-google-search-for-shop-local-ireland-up-540/) in October 2020, 
+reported that search terms such as "shop local Ireland" saw an increase of 540%. 
+As Lush is a UK based brand it would be beneficial for LL to communicate to users that it is an Irish brand.
 
-What are the tech considerations?
+**What are the tech and other considerations?**
 
-This product is for general consumers. As this is a B2C product, I want to focus heavily and branding and beautiful emotive product images
+The LL demographic are tech savvy. [The Irish Times reports](https://www.irishtimes.com/business/technology/children-spend-equivalent-of-61-days-a-year-online-study-1.4012928)
+that 15% of 12-year-olds spend the equivalent of 61 days a year online. 
+
+This product is for general consumers. As this is a B2C product, it should focus heavily on branding and emotive product images.
+
+**Project roadmap**
+
+To determine the objectives and needs for this release I have created the table below. 
+Each opportunity/problem is rated on a scale of 1 - 5 in two dimensions; Importance and Feasibility.
+
+Opportunity/Problem | Importance | Feasibility
+------------ | ------------- | -------------
+Create an online presence | 5 | 5
+Increase social media followers | 1 | 2
+Sell products online | 5 | 1
+Customisable gift boxes | 1 | 1
+Start the LL blog | 4 | 4
+Showcase a product | 5 | 4
+Generate interest in the brand and build a relationship with users | 5 | 5
+ | 26 | 22
+
+![Lulu Loves Project Roadmap](/images/project-roadmap.png)
 
 #### User Persona
 
@@ -51,7 +80,7 @@ Mary Ryan is Sadie's mother
 
 #### Trade offs
 
-To establish the scope for this project I am using the agile methodology, I have made a list of all possible features and given each one a difficulty rating between 1 and 3.
+To establish the feature scope for this project I am using the agile methodology, I have made a list of all possible features and given each one a difficulty rating between 1 and 3.
 Each release will allow for a maximum of 12 points. I created the table below to determine which features to prioritise and which to schedule for a later release.
 
 Feature | Rating
