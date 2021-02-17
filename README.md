@@ -1,4 +1,4 @@
-![Lulu Loves Logo](/images/lulu-loves-logo.png)
+![Lulu Loves Logo](/workspace/lulu-loves/assets/images/lulu-loves-logo.png)
 
 # Lulu Loves
 
@@ -11,7 +11,7 @@ Handmade bath bombs and pamper products delivered to your door. Join the self ca
 
 **Why are we so special?**
 
-'Lulu loves' boasts products that are 100% Vegan, cruelty-free, paraben free and handmade. 
+'Lulu loves' boasts products that are 100% vegan, cruelty-free, paraben free and handmade. 
 We are focused on offering pamper products to tweens and teens, aged 11-19. 
 The LL community centres around the promotion of positive mental health and resilience in teens. 
 Both through our online platform and notes that accompany our products, 
@@ -52,13 +52,16 @@ Customisable gift boxes | 1 | 1
 Start the LL blog | 4 | 4
 Showcase a product | 5 | 4
 Generate interest in the brand and build a relationship with users | 5 | 5
- | 26 | 22
+- | 26 | 22
 
-![Lulu Loves Project Roadmap](/images/project-roadmap.png)
+![Lulu Loves Project Roadmap](/workspace/lulu-loves/assets/images/project-roadmap.jpg)
 
 #### User Persona
 
-You can view the user persona in assets > user persona
+![Lulu Loves User Persona](/workspace/lulu-loves/assets/images/lulu-loves-user-persona.jpg)
+![Lulu Loves User Goals and Frustrations](/workspace/lulu-loves/assets/images/lulu-loves-user-persona-goals-and-frustrations.jpg)
+
+#### User Stories
 
 Sadie Ryan is 13 and lives with her family. She is a huge fan of bath and beauty products.
 - As a customer I would like to purchase bath and beauty products. 
@@ -74,9 +77,8 @@ Mary Ryan is Sadie's mother
 - I want to be able to trust that my card details and personal information are secure.
 - I want to easily get in contact with the company if there is an issue.
 
-### The Scope Plane
 
-#### User Stories
+### The Scope Plane
 
 #### Trade offs
 
