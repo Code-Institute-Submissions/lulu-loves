@@ -1,4 +1,4 @@
-![Lulu Loves Logo](/images/lulu-loves-logo.png)
+![Lulu Loves Logo](/assets/images/lulu-loves-logo.png)
 
 # Lulu Loves
 
@@ -54,12 +54,12 @@ Showcase a product | 5 | 4
 Generate interest in the brand and build a relationship with users | 5 | 5
 - | 26 | 22
 
-![Lulu Loves Project Roadmap](/images/project-roadmap.jpg)
+![Lulu Loves Project Roadmap](/assets/images/project-roadmap.jpg)
 
 #### User Persona
 
-![Lulu Loves User Persona](/images/lulu-loves-user-persona.jpg)
-![Lulu Loves User Goals and Frustrations](/images/lulu-loves-user-persona-goals-and-frustrations.jpg)
+![Lulu Loves User Persona](/assets/images/lulu-loves-user-persona.jpg)
+![Lulu Loves User Goals and Frustrations](/assets/images/lulu-loves-user-persona-goals-and-frustrations.jpg)
 
 #### User Stories
 
