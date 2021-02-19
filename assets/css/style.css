@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: url(/assets/images/cursor.png), auto;
+}
+
+.feature {
+    border: 1px solid red;
+}
+
+.feature-inner {
+    border: 1px solid blue;
+}
+
+/*-------------------------------------------- Colors */
+
+.bg-color-main {
+ background-color: #c7aacd;
+}
+
+.btn-primary {
+    background-color: #ef7a4e;
+}
+
+.btn-primary:hover {
+    background-color: #ed5a4f;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+/*-------------------------------------------- Special paddings/margins/text/buttons */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 1rem;
+    border: 0;
+}
+
+a:-webkit-any-link {
+    cursor: url(/assets/images/pointer.png), auto;
+}
+
+/*-------------------------------------------- Header */
+
+header, header p {
+    margin: 0;
+}
+
+.banner {
+    padding: 10px 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-brand { 
+    background: url("/assets/images/lulu-loves-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 65px;
+}
+
+/*-------------------------------------------- Carousel */
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-caption {
+    left: 5%;
+}
+
+/*-------------------------------------------- Intro */
+
+.intro {
+    margin: 100px 0;
+}
+
+/*-------------------------------------------- Media Queries */
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 1.5rem;
+    }
+
+    .carousel-caption {
+        width: 40%;
+    }
+}
