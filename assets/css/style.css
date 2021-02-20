@@ -7,14 +7,6 @@ body {
     cursor: url(/assets/images/cursor.png), auto;
 }
 
-.feature {
-    border: 1px solid red;
-}
-
-.feature-inner {
-    border: 1px solid blue;
-}
-
 /*-------------------------------------------- Colors */
 
 .bg-color-main {
@@ -89,6 +81,20 @@ header, header p {
 
 .intro {
     margin: 100px 0;
+}
+
+/*-------------------------------------------- Values */
+
+.values {
+    margin: 100px 0;
+}
+
+.values p {
+    margin-top: 20px;
+}
+
+.col-half-offset{
+    margin-left:4.166666667%
 }
 
 /*-------------------------------------------- Media Queries */
