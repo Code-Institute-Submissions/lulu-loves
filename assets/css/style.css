@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 0.9rem;
     font-weight: 400;
     cursor: url(/assets/images/cursor.png), auto;
 }
@@ -22,6 +21,10 @@ body {
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
+}
+
+mark {
+    background-color: #d5e8fe;
 }
 
 /*-------------------------------------------- Special paddings/margins/text/buttons */
@@ -44,6 +47,17 @@ a:-webkit-any-link {
     cursor: url(/assets/images/pointer.png), auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transform: rotateZ(3deg);
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
 /*-------------------------------------------- Header */
 
 header, header p {
@@ -52,6 +66,7 @@ header, header p {
 
 .banner {
     padding: 10px 0;
+    font-size: 0.9rem;
 }
 
 .navbar-collapse {
@@ -63,11 +78,15 @@ header, header p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100px;
-    height: 65px;
+    width: 110px;
+    height: 75px;
 }
 
 /*-------------------------------------------- Carousel */
+
+.img-fluid {
+    width: 100%;
+}
 
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
@@ -80,7 +99,68 @@ header, header p {
 /*-------------------------------------------- Intro */
 
 .intro {
-    margin: 100px 0;
+    margin: 70px 0 80px 0;
+}
+
+.intro h1 {
+    margin: 15px 0 15px 0;
+}
+
+.intro img {
+    max-width: 200px;
+    height: auto;
+}
+
+/*-------------------------------------------- Values */
+
+.feature-inner {
+    min-height: 400px;
+}
+
+.feature-1 {
+    background: url("/assets/images/club.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-2 {
+    background: url("/assets/images/sleepy-bath-bomb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-info {
+    visibility: hidden;
+    height: 400px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.feature-inner:hover .feature-info {
+    visibility: visible;
+    background-color: rgba(199, 170, 205, 0.9);
+    color: #fff;
+}
+
+/*-------------------------------------------- Newsletter Sign */
+
+.sign-up-container {
+    background: url("/assets/images/sign-up.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up {
+    background-color: #fae8e2;
+    border-radius: 5px;
+    width: 800px;
+    margin: auto;
 }
 
 /*-------------------------------------------- Values */
