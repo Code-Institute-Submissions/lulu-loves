@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="banner uppercase letter-spacing text-center bg-color-main">
-            <p><a href="#newsletter-sign-up" class="text-white">Sign up our newsletter!</a></p>
+            <p><a href="#newsletter-sign-up">Sign up our newsletter!</a></p>
         </div>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container-md">
@@ -98,15 +98,16 @@
                 <img src="/assets/images/sunny-the-mascot.png" alt="Sunny the mascot">
                 <h1 class="intro-heading">Lulu Loves...</h1>
                 <p class="lead">honest, cruelty-free, wallet friendly self care for teens. Turn your bathroom into your own personal spa.
-                Handmade bath bombs and pamper products delivered to your door. <mark>Join the self care club!</mark></p>
+                Handmade bath bombs and pamper products delivered to your door. <br><mark>Join the self care club!</mark></p>
             </div>
         </div>
 
         <!-- Features -->
-        <div class="d-flex flex-md-equal w-100 my-md-3 ps-md-3 feature">
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 feature">
             <div class="me-md-3 text-center text-white overflow-hidden feature-inner feature-1">
                 <div class="row py-3 px-3 py-md-5 px-md-5 feature-info">
                     <div class="col align-self-center">
+                        <p class="display-6">Join the club</p>
                         <p class="lead">Visit our blog latest tips and tricks in health and beauty</p>
                         <p><a class="btn btn-primary uppercase letter-spacing" href="#">Blog</a></p>
                     </div>
@@ -115,6 +116,7 @@
             <div class="me-md-3 text-center feature-inner feature-2">
                 <div class="row py-3 px-3 py-md-5 px-md-5 feature-info">
                     <div class="col align-self-center">
+                        <p class="display-6">Coming soon</p>
                         <p class="lead">Visit our blog latest tips and tricks in health and beauty</p>
                         <p><a class="btn btn-primary uppercase letter-spacing" href="#">All products</a></p>
                     </div>
@@ -124,19 +126,23 @@
 
         <!-- Newsletter sign up -->
         <div class="w-100 my-md-3 ps-md-3">
-            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden feature-inner sign-up-container">
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden feature-inner sign-up-container">
                 <div class="my-3 py-3 sign-up">
-                    <p class="display-6">Sign Up</p>
-                    <p class="lead">Sign up to our news letter for mxncbv lkshf lkdhf</p>
+                    <p class="display-6">Sign up to our newsletter</p>
+                    <p class="lead">like a ray of shine to your inbox, keep up to date with news and product launches</p>
                     <form>
-                        <div class="mb-3">
-                            <label for="exampleInputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" required>
-                            <label for="exampleInputEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" required>
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" aria-describedby="nameHelp" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email" aria-describedby="nameHelp" required>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </form>
                 </div>
             </div>
@@ -145,23 +151,23 @@
         <!-- Company values -->
         <div class="row text-center values">
             <div class="col-lg-2">
-                <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 80x80" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                <img src="/assets/images/lulu-loves-handmade.png" width="150" height="150" alt="Handmade icon">
                 <p class="lead">Handmade</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 80x80" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <p class="lead">Cruelty-free</p>
+                <img src="/assets/images/lulu-loves-vegan.png" width="150" height="150" alt="Handmade icon">
+                <p class="lead">Vegan</p>
             </div> 
             <div class="col-lg-2 col-half-offset">
-                <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 80x80" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <p class="lead">Sustainable</p>
+                <img src="/assets/images/lulu-loves-paraben-free.png" width="150" height="150" alt="Paraben Free icon">
+                <p class="lead">Paraben-free</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 80x80" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <p class="lead">Vegan</p>
+                <img src="/assets/images/lulu-loves-cruelty-free.png" width="150" height="150" alt="Cruelty-free icon">
+                <p class="lead">Cruelty-free</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 80x80" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                <img src="/assets/images/lulu-loves-made-in-ireland.png" width="150" height="150" alt="Made in Ireland icon">
                 <p class="lead">Made in Ireland</p>
             </div>
         </div>

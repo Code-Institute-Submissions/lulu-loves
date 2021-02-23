@@ -27,6 +27,17 @@ mark {
     background-color: #d5e8fe;
 }
 
+.banner a {
+    color: #fff;
+}
+
+.banner a:hover {
+    color: #f5e336;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
 /*-------------------------------------------- Special paddings/margins/text/buttons */
 
 .uppercase {
@@ -39,8 +50,9 @@ mark {
 
 .btn {
     font-size: 0.9rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border: 0;
+    border-radius: 2.5rem;
 }
 
 a:-webkit-any-link {
@@ -62,6 +74,25 @@ a {
 
 header, header p {
     margin: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav {
+    margin: 15px 10px;
+}
+
+.nav-link {
+    padding-top: .2em;
+    padding-bottom: .2em;
 }
 
 .banner {
@@ -111,7 +142,7 @@ header, header p {
     height: auto;
 }
 
-/*-------------------------------------------- Values */
+/*-------------------------------------------- Features */
 
 .feature-inner {
     min-height: 400px;
@@ -159,8 +190,7 @@ header, header p {
 .sign-up {
     background-color: #fae8e2;
     border-radius: 5px;
-    width: 800px;
-    margin: auto;
+    padding: 90px;
 }
 
 /*-------------------------------------------- Values */
@@ -170,11 +200,8 @@ header, header p {
 }
 
 .values p {
-    margin-top: 20px;
-}
-
-.col-half-offset{
-    margin-left:4.166666667%
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 /*-------------------------------------------- Media Queries */
@@ -183,6 +210,10 @@ header, header p {
   .flex-md-equal > * {
     flex: 1;
   }
+
+  .feature-info {
+    padding: 0 5rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -190,7 +221,15 @@ header, header p {
         padding: 1.5rem;
     }
 
+    .navbar-nav {
+        margin: 0px;
+    }
+
     .carousel-caption {
         width: 40%;
+    }
+
+    .col-half-offset{
+        margin-left:4.166666667%
     }
 }
