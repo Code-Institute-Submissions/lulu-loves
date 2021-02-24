@@ -14,7 +14,7 @@
         </div>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container-md">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" aria-current="page" href="index.html">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav uppercase letter-spacing">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    <a class="nav-link" href="products.html">Products</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="gifts.html">Gifts</a>
@@ -52,7 +52,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/assets/images/test1.jpg" class="img-fluid" alt="Carousel image">
+                    <img src="/assets/images/test-1-mobile.jpg" class="img-fluid mobile-slider" alt="Carousel image">
+                    <img src="/assets/images/test1.jpg" class="img-fluid slider" alt="Carousel image">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Example headline.</h1>
@@ -62,7 +63,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/images/test2.jpg" class="img-fluid" alt="Carousel image">
+                    <img src="/assets/images/test-2-mobile.jpg" class="img-fluid mobile-slider" alt="Carousel image">
+                    <img src="/assets/images/test2.jpg" class="img-fluid slider" alt="Carousel image">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Another example headline.</h1>
@@ -72,7 +74,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/images/test3.jpg" class="img-fluid" alt="Carousel image">
+                    <img src="/assets/images/test-3-mobile.jpg" class="img-fluid mobile-slider" alt="Carousel image">
+                    <img src="/assets/images/test3.jpg" class="img-fluid slider" alt="Carousel image">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>One more for good measure.</h1>
@@ -126,8 +129,8 @@
 
         <!-- Newsletter sign up -->
         <div class="w-100 my-md-3 ps-md-3">
-            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden feature-inner sign-up-container">
-                <div class="my-3 py-3 sign-up">
+            <div class="me-md-3 pt-3 px-3 py-md-5 px-md-5 text-center overflow-hidden sign-up-container">
+                <div id="#newsletter-sign-up" class="my-3 py-3 py-md-5 px-md-5  sign-up">
                     <p class="display-6">Sign up to our newsletter</p>
                     <p class="lead">like a ray of shine to your inbox, keep up to date with news and product launches</p>
                     <form>
@@ -139,7 +142,7 @@
                                 <input type="email" class="form-control" placeholder="Email" aria-describedby="nameHelp" required>
                             </div>
                             <div class="col">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-secondary">Submit</button>
                             </div>
                         </div>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -150,33 +153,35 @@
 
         <!-- Company values -->
         <div class="row text-center values">
+            <p class="display-6">Lulu loves...</p>
             <div class="col-lg-2">
-                <img src="/assets/images/lulu-loves-handmade.png" width="150" height="150" alt="Handmade icon">
+                <img src="/assets/images/lulu-loves-handmade.png" width="170" height="170" alt="Handmade icon">
                 <p class="lead">Handmade</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <img src="/assets/images/lulu-loves-vegan.png" width="150" height="150" alt="Handmade icon">
+                <img src="/assets/images/lulu-loves-vegan.png" width="170" height="170" alt="Handmade icon">
                 <p class="lead">Vegan</p>
             </div> 
             <div class="col-lg-2 col-half-offset">
-                <img src="/assets/images/lulu-loves-paraben-free.png" width="150" height="150" alt="Paraben Free icon">
+                <img src="/assets/images/lulu-loves-paraben-free.png" width="170" height="170" alt="Paraben Free icon">
                 <p class="lead">Paraben-free</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <img src="/assets/images/lulu-loves-cruelty-free.png" width="150" height="150" alt="Cruelty-free icon">
+                <img src="/assets/images/lulu-loves-cruelty-free.png" width="170" height="170" alt="Cruelty-free icon">
                 <p class="lead">Cruelty-free</p>
             </div>
             <div class="col-lg-2 col-half-offset">
-                <img src="/assets/images/lulu-loves-made-in-ireland.png" width="150" height="150" alt="Made in Ireland icon">
+                <img src="/assets/images/lulu-loves-made-in-ireland.png" width="170" height="170" alt="Made in Ireland icon">
                 <p class="lead">Made in Ireland</p>
             </div>
         </div>
 
     </section>
 
-    <footer class="container">
+    <footer class="fluid p-3 p-md-5">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2022 Lulu Loves. &middot; <a href="#">FAQ</a> &middot; <a href="#">Privacy Policy</a></p>
+        <p class="float-start">&copy; 2022 Lulu Loves</p>
+        <p class="text-center"><a href="faq.html">FAQ</a> &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
