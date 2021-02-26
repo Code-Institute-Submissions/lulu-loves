@@ -218,6 +218,10 @@ header, header p {
 
 /*-------------------------------------------- Features */
 
+.desktop-feature {
+    display: none;
+}
+
 .feature-inner {
     min-height: 500px;
 }
@@ -340,8 +344,17 @@ footer a i {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+    .mobile-feature {
+        display: none;
+    }
 
+    .desktop-feature {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
     .carousel-caption {
         bottom: 30%;
     }
