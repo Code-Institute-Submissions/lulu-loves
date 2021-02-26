@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    cursor: url(/assets/images/cursor.png), auto;
+    cursor: url(../images/cursor.png), auto;
 }
 
 /*-------------------------------------------- Colors */
