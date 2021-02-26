@@ -99,7 +99,7 @@ footer p {
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
 
-.product-banner-img, .gifts-banner-img, .about-banner-img, .club-banner-img { 
+.product-banner-img, .about-banner-img, .club-banner-img { 
     background: url("/assets/images/about-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -108,6 +108,13 @@ footer p {
 
 .contact-banner-img { 
     background: url("/assets/images/contact-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gifts-banner-img { 
+    background: url("/assets/images/gifts-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
