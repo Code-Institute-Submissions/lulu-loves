@@ -95,6 +95,10 @@ footer p {
     margin: 0;
 }
 
+.banner-text {
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
 .product-banner-img, .gifts-banner-img, .about-banner-img, .club-banner-img, .contact-banner-img { 
     background: url("/assets/images/about-banner.jpg");
     background-position: center;
