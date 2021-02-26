@@ -230,10 +230,6 @@ header, header p {
 
 /*-------------------------------------------- Values */
 
-.values {
-    margin: 70px 0;
-}
-
 .values p {
     margin-top: 5px;
     margin-bottom: 40px;
@@ -244,12 +240,6 @@ header, header p {
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
-}
-
-/*-------------------------------------------- Contact Form */
-
-.contact-form {
-    margin: 70px 0px;
 }
 
 /*-------------------------------------------- Blog */
@@ -297,10 +287,6 @@ header, header p {
 
     .mobile-slider {
         display: none;
-    }
-
-    .values, .intro, .contact-form {
-        margin: 100px 0;
     }
 
     .col-half-offset{
