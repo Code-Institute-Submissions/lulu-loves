@@ -78,7 +78,7 @@ form {
 }
 
 a:-webkit-any-link {
-    cursor: url(/assets/images/pointer.png), auto;
+    cursor: url(../images/pointer.png), auto;
 }
 
 a {
@@ -105,35 +105,35 @@ footer p {
 }
 
 .products-banner-img { 
-    background: url("/assets/images/products-banner.jpg");
+    background: url("../images/products-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .gifts-banner-img { 
-    background: url("/assets/images/gifts-banner.jpg");
+    background: url("../images/gifts-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .about-banner-img { 
-    background: url("/assets/images/about-banner.jpg");
+    background: url("../images/about-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .club-banner-img { 
-    background: url("/assets/images/club-banner.jpg");
+    background: url("../images/club-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .contact-banner-img { 
-    background: url("/assets/images/contact-banner.jpg");
+    background: url("../images/contact-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +174,7 @@ header, header p {
 }
 
 .navbar-brand { 
-    background: url("/assets/images/lulu-loves-logo.png");
+    background: url("../images/lulu-loves-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,14 +227,14 @@ header, header p {
 }
 
 .feature-1 {
-    background: url("/assets/images/club.jpg");
+    background: url("../images/club.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-2 {
-    background: url("/assets/images/sleepy-bath-bomb.jpg");
+    background: url("../images/sleepy-bath-bomb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +259,7 @@ header, header p {
 /*-------------------------------------------- Newsletter Sign */
 
 .sign-up-container {
-    background: url("/assets/images/sign-up.gif");
+    background: url("../images/sign-up.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
