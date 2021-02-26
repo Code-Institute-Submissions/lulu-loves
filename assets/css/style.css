@@ -24,7 +24,12 @@ body {
 }
 
 .btn-outline-primary {
-    border: 2px solid #ef7a4e;
+    color: #ed5a4f;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #ed5a4f;
 }
 
 mark {
@@ -99,15 +104,8 @@ footer p {
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
 
-.product-banner-img, .about-banner-img, .club-banner-img { 
-    background: url("/assets/images/about-banner.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contact-banner-img { 
-    background: url("/assets/images/contact-banner.jpg");
+.products-banner-img { 
+    background: url("/assets/images/products-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +113,27 @@ footer p {
 
 .gifts-banner-img { 
     background: url("/assets/images/gifts-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner-img { 
+    background: url("/assets/images/about-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.club-banner-img { 
+    background: url("/assets/images/club-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-banner-img { 
+    background: url("/assets/images/contact-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
