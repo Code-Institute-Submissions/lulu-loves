@@ -9,27 +9,31 @@ body {
 /*-------------------------------------------- Colors */
 
 .bg-color-main {
-  background-color: #c7aacd;
+  background-color: #9763A1;
+}
+
+.btn {
+  font-weight: 600;
 }
 
 .btn-primary {
-  background-color: #ef7a4e;
+  background-color: #D2430F;
 }
 
 .btn-primary:hover {
-  background-color: #ed5a4f;
+  background-color: #B53A0D;
   transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
 }
 
 .btn-outline-primary {
-  color: #ed5a4f;
+  color: #B53A0D;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #ed5a4f;
+  background-color: #B53A0D;
 }
 
 .banner a,
@@ -47,15 +51,15 @@ footer a:hover {
 }
 
 footer {
-  background-color: #c7aacd;
+  background-color: #9763A1;
 }
 
 a {
-  color: #ed5a4f;
+  color: #D2430F;
 }
 
 a:hover {
-  color: #b9362c;
+  color: #B53A0D;
 }
 
 
@@ -284,7 +288,7 @@ header p {
 
 .feature-inner:hover a {
   visibility: visible;
-  background-color: #ed5a4f;
+  background-color: #D2430F;
   color: #fff;
 }
 
@@ -292,7 +296,7 @@ header p {
 /*-------------------------------------------- Newsletter Sign */
 
 .sign-up-container {
-  background: url("../images/sign-up.gif");
+  background: url("../images/sign-up-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -356,6 +360,13 @@ footer a i {
   }
   .carousel-caption {
     right: 40%;
+  }
+
+  .sign-up-container {
+    background: url("../images/sign-up-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
