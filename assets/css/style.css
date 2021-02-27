@@ -32,10 +32,6 @@ body {
     background-color: #ed5a4f;
 }
 
-mark {
-    background-color: #d5e8fe;
-}
-
 .banner a, footer, footer a {
     color: #fff;
 }
@@ -258,9 +254,27 @@ header, header p {
     color: rgba(255, 255, 255, 0.1);
 }
 
+.feature-info a {
+    padding: 1em 2em;
+    border-radius: 2.5rem;
+    color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(237, 90, 79, 0.1);
+    visibility: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
 .feature-inner:hover .feature-info {
     visibility: visible;
     background-color: rgba(199, 170, 205, 0.9);
+    color: #fff;
+}
+
+.feature-inner:hover a {
+    visibility: visible;
+    background-color: #ed5a4f;
     color: #fff;
 }
 
