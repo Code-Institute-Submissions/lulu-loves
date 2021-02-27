@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* CREDIT: Code for custom mouse cursor taken from https://www.playnice-studio.com/ and edited to suit project needs */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -97,6 +99,7 @@ a {
   text-decoration: none;
 }
 
+/* CREDIT: Code for transform rotate taken from https://www.w3schools.com/cssref/css3_pr_transform.asp and edited to suit project needs */
 .nav-link:hover {
   transform: rotateZ(3deg);
   transition: all .3s ease-in-out;
@@ -217,23 +220,6 @@ header p {
   right: 0;
 }
 
-
-/*-------------------------------------------- Intro */
-
-.intro {
-  margin: 70px 0px;
-}
-
-.intro h1 {
-  margin: 15px 0 15px 0;
-}
-
-.intro img {
-  max-width: 200px;
-  height: auto;
-}
-
-
 /*-------------------------------------------- Features */
 
 .desktop-feature {
@@ -258,6 +244,7 @@ header p {
   background-size: cover;
 }
 
+/* CREDIT: Code for Code to display feature-inner on hover with working transition effect https://stackoverflow.com/questions/34459841/show-child-element-on-parent-hover-in-css/34459870 edited to suit project needs */
 .feature-info {
   visibility: hidden;
   height: 500px;
