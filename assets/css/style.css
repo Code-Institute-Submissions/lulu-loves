@@ -51,6 +51,14 @@ footer {
     background-color: #c7aacd;
 }
 
+a {
+    color: #ed5a4f;
+}
+
+a:hover {
+    color: #b9362c;
+}
+
 /*-------------------------------------------- Special paddings/margins/text/buttons */
 
 .uppercase {
@@ -287,6 +295,12 @@ header, header p {
 
 .card-body {
     padding: 2rem;
+}
+
+/*-------------------------------------------- Each blog */
+
+.blog-post {
+    background-color: #fce7e1;
 }
 
 /*-------------------------------------------- Footer */
