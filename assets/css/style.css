@@ -356,7 +356,8 @@ footer a i {
     }
 
     .carousel-caption {
-        width: 35%;
+        width: 40%;
+        bottom: 20%;
     }
 
     .slider {
