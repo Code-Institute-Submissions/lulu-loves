@@ -28,11 +28,11 @@ They do a good job of communicating the company's values on their homepage, alon
 However, based on some products they stock, anti-ageing creams etc. it is possible to surmise that their demographic begins slightly older and spans a greater range than the LL user. 
 LL's brand and online presence should be tailored more specifically to the target demographic. 
 
-![Lush Homepage](/assets/images/lush-home-page.jpg)
+![Lush Homepage](./documentation/lush-home-page.jpg)
 
 The Lush cosmetics menu offers over 80 items in its drop-down menu which could be overwhelming and cause decision fatigue in tweens and teens. 
 
-![Lush Menu](/assets/images/lush-menu.jpg)
+![Lush Menu](./documentation/lush-menu.jpg)
 
 An [article published on rte.ie](https://www.rte.ie/news/business/2020/1023/1173492-google-search-for-shop-local-ireland-up-540/) in October 2020, 
 reported that search terms such as "shop local Ireland" saw an increase of 540%. 
@@ -62,7 +62,7 @@ Start the LL blog | 4 | 4
 Showcase a product | 5 | 4
 Generate interest in the brand and build a relationship with users | 5 | 5
 
-![Lulu Loves Project Roadmap](/assets/images/project-roadmap.jpg)
+![Lulu Loves Project Roadmap](./documentation/project-roadmap.jpg)
 
 #### User Stories
 
@@ -87,14 +87,10 @@ Generate interest in the brand and build a relationship with users | 5 | 5
 - As a returning visitor, I want to find information about delivery times.
 - As a returning visitor, I want to contact LL with a question.
 
-**Goals of the site owner**
+#### User persona of primary visitor
 
-- As the owner of the site, I want to fhgsjkfhglsk
-
-#### Imagined user persona of primary visitor
-
-![Lulu Loves User Persona](/assets/images/lulu-loves-user-persona.jpg)
-![Lulu Loves User Goals and Frustrations](/assets/images/lulu-loves-user-persona-goals-and-frustrations.jpg)
+![Lulu Loves User Persona](./documentation/lulu-loves-user-persona.jpg)
+![Lulu Loves User Goals and Frustrations](./documentation/lulu-loves-user-persona-goals-and-frustrations.jpg)
 
 ### The Scope Plane
 
@@ -105,22 +101,19 @@ Each release will allow for a maximum of 12 points. The table below will be used
 
 Feature | Rating
 ------------ | -------------
-Announcement bar at the top of the home page to highlight relevant information e.g. sale or newsletter promotion | 1
+Announcement bar at the top of the home page to highlight relevant information e.g. newsletter promotion | 1
 Logo that links to the home page so users can orientate themselves easily | 1
 Clear, consistent navigation on each page | 1
-Showcase products with a sliding banner | 2
+Showcase products or imporant site content with a sliding banner | 2
 Highlight aspects of the brand that are important to the user (e.g cruelty-free products, customer service) using short messages and icons | 1
-Self Care Club blog, featuring articles and videos on products as well as general tips relating to self care | 1
+Self Care Club blog, featuring articles on products as well as general tips relating to self care | 1
 Online shop that will give users the option to set up an account or check out as guest and pay securely using Paypal, Stripe or Apple Pay | 3
 Related products section for upselling and cross selling | 3
-Customisable gift box product | 3
 Calculated shipping | 3
-A carousel of brand logos to showcase products that have been awarded, featured or commended | 1
+Advertise gift box product release | 1
 Newsletter sign-up | 2
-Footer which includes links to social media accounts and a footer menu of FAQ and Privacy Policy | 1
-Contact form | 2
-Customer service chat feature | 3
-Search bar | 2
+Footer which includes links to social media accounts | 1
+Contact form | 1
 Custom mouse icon | 1
 
 Given limited resources, the features that offer the most value at this stage are:
@@ -128,7 +121,8 @@ Given limited resources, the features that offer the most value at this stage ar
 - Clear, consistent navigation on each page
 - Showcase products with a sliding banner
 - Highlight aspects of the brand that are important to the user
-- Self Care Club blog (first article)
+- Advertise gift box product release
+- Self Care Club blog
 - Newsletter sign-up
 - Footer
 - Contact form
@@ -140,30 +134,51 @@ These features solve the problem of generating interest and anticipation around 
 
 As the site will not have a lot of content to begin with a linear narrative will work best
 
-![Lulu Loves Information Architecture](/assets/images/lulu-loves-information-architecture.png)
-
-All forms on the site will provide feedback to show if they have been successful
-The site will include a custom 404 error page
-draw an info architectuer map
+![Lulu Loves Information Architecture](./documentation/lulu-loves-information-architecture.png)
 
 ### The Skeleton Plane
 
+The wireframes were created using Balsamiq. They can be viewed at the following links
+
+[Homepage](https://github.com/Jade-Quinn/lulu-loves/blob/master/documentation/home-page-wire-frame.png)
+
 ### The Surface Plane
 
-## Features
+**Colour Scheme**
+The main colours used are lilac #c7aacd, yellow #f5e336, blue #a7c6ea and orange #ef7a4e
+The colour pallet is bright and playful but used sparingly across the site to keep it looking clean.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+**Typography**
+The font used on the site is Poppins with Sans Serif as the fallback font in case Poppins doesnt load.
+It is a clean and bold font but it is also slightly informal and fun to tie in with the overall brand aesthetic.
+
+**Imagery**
+
+Imagery is bright and striking. It is a combination of custom made graphics and people enjoying the brands products.
+A custom mouse and hover icon offers an element of surprise.
+
+
+## Features
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Announcement bar - allows users X to achieve Y, by having them fill out Z
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Announcement bar - highlight to users relevant information e.g. newsletter promotion or sale. This appears on the homepage only so as not to annoy the user with repetitive information.
+- Image carousel - communicates to the user what the site is about
+- Logo link to home page - allows users to orientate themselves quickly
+- Linear navigation - allows users to easily navigate all pages
+- Product page - showcase to the user products on offer
+- Custom compnay value icons - highlight to users the values of the brand (e.g cruelty-free products)
+- Self Care Club blog - encourages users to return to the site
+- Advertise gift box product release - generate anticipation with site users
+- Newsletter sign-up - encourages users to return to the site
+- Custom icons and cursor - to surprise users and make the site more memorable
+- Social icons in footer - allows users to further engage witht he brand and builds trust
+- Contact form - allows users to easily get in contact by filling out the form
 
 ### Features Left to Implement
-- Another feature idea
+- In the future the site will implement a shop to allow users to purchase products
 
 ## Technologies Used
 
@@ -174,12 +189,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Poppins' font into the style.css.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
@@ -189,35 +202,16 @@ In addition, you may also use this section to discuss plans for additional featu
 1. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
     - Illustrator was used to create the logo and branding assets.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create supporting documents, mockups and to resize images for the site.
+    - Photoshop was used to create supporting documents, and to resize images for the site.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes at the 'Skelton Plane phase.
 
 
 ## Testing
 
-###Bugs/issues
-
-Toggle menu not working > disconnected style sheet and tested sample code on empty about page, still not working, searched stack overflow,
-found answer by going back through bootstrap documentation, was missing js library
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+I used lighthouse in chrome developer tools to test perfromance and accessability. Screen shots of testing can be found in the testing folder within documentation
+I ran out of time to fully document this process
 
 ## Deployment
 
@@ -276,6 +270,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 - The photos in the user persona in README.md are from Pexels.com [Photo of girl 1](https://www.pexels.com/photo/photo-of-girl-smiling-while-holding-black-smartphone-4145034/) [Photo of girl 2](https://www.pexels.com/photo/fashion-man-people-woman-4144974/)
+- Banner photos used on the site are from Pexels.com
+- Articles from blog are from headspace.com 
 
 ### Acknowledgements
 
