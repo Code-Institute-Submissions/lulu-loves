@@ -269,6 +269,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - The method for creating the project road map in README.md came from Code Institute's lesson: 'It's All About The User Experience > The Strategy Plane > Strategy Trade-offs'
 - Research for content and layout of the user persona in README.md came from Pinterest. Refrences can be found [here](https://pin.it/5B3Gjdc)
 - The method for creating the feature scope table in README.md came from Code Institute's lesson: 'It's All About The User Experience > The Scope Plane > Scope Challenge'
+- I have documented all code used in my html and css files
 
 ### Media
 - The photos in the user persona in README.md are from Pexels.com [Photo of girl 1](https://www.pexels.com/photo/photo-of-girl-smiling-while-holding-black-smartphone-4145034/) [Photo of girl 2](https://www.pexels.com/photo/fashion-man-people-woman-4144974/)
