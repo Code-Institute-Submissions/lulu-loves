@@ -145,11 +145,13 @@ The wireframes were created using Balsamiq. They can be viewed at the following 
 ### The Surface Plane
 
 **Colour Scheme**
+
 The main colours used are lilac #c7aacd, yellow #f5e336, blue #a7c6ea and orange #ef7a4e
 The colour pallet is bright and playful but used sparingly across the site to keep it looking clean.
 
 
 **Typography**
+
 The font used on the site is Poppins with Sans Serif as the fallback font in case Poppins doesnt load.
 It is a clean and bold font but it is also slightly informal and fun to tie in with the overall brand aesthetic.
 
@@ -162,7 +164,6 @@ A custom mouse and hover icon offers an element of surprise.
 ## Features
  
 ### Existing Features
-- Announcement bar - allows users X to achieve Y, by having them fill out Z
 
 - Announcement bar - highlight to users relevant information e.g. newsletter promotion or sale. This appears on the homepage only so as not to annoy the user with repetitive information.
 - Image carousel - communicates to the user what the site is about
@@ -209,9 +210,10 @@ A custom mouse and hover icon offers an element of surprise.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
-I used lighthouse in chrome developer tools to test perfromance and accessability. Screen shots of testing can be found in the testing folder within documentation
-I ran out of time to fully document this process
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+- I used lighthouse in chrome developer tools to test perfromance and accessability. Screen shots of testing can be found in the testing folder within documentation
+
+Sadly I ran out of time to properly document my tests in this readme
 
 ## Deployment
 
@@ -280,4 +282,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - I received inspiration for this project from my sister Sadie, who gave me great insights when developing the user persona for the Lulu Loves brand. 
 Sadie also chose the name and did some initial logo sketches which I later developed into the Lulu Loves mascot, Sunny.
 
-![Sadies original logo sketch](/assets/images/sadie-sketch.jpg)
+![Sadies original logo sketch](./documentation/sadie-sketch.jpg)
